@@ -15,9 +15,9 @@
 
 ### Running Front-end
 
-Rename `.env.example` to `.env`. 
-Update `NEXT_PUBLIC_RPC` with your devnet RPC or the public: `https://api.devnet.solana.com` 
-From Terminal enter 
+Rename `.env.example` to `.env`.
+Update `REACT_APP_SOLANA_RPC_HOST` with your devnet RPC or the public: `https://api.devnet.solana.com`
+From Terminal enter
 ```sh
 yarn dev
-```
+````

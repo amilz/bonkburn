@@ -8,8 +8,8 @@ npm install
 yarn
 ```
 
-Rename `.env.example` to `.env`. 
-Update `NEXT_PUBLIC_RPC` with your devnet RPC or the public: `https://api.devnet.solana.com` 
+Rename `.env.example` to `.env`.
+Update `REACT_APP_SOLANA_RPC_HOST` with your devnet RPC or the public: `https://api.devnet.solana.com`
 
 Run the development server:
 
