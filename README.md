@@ -15,14 +15,9 @@ PRs, issues, feedback welcome. Thanks! 🙏
 
 ## Getting Started (Front End)
 
-```bash
-npm install
-#or
-yarn
-```
+Rename `.env.example` to `.env`.
+Update `REACT_APP_SOLANA_RPC_HOST` with your devnet RPC or the public: `https://api.devnet.solana.com`
 
-Create`.env`. 
-Add `NEXT_PUBLIC_RPC` or `REACT_APP_SOLANA_RPC_HOST` with your RPC or the public: `https://api.devnet.solana.com` 
 Update `app\utils\constants.ts` as necessary:
 - Make sure reference to `.env` is correct in `SOLANA_RPC`
 - Update `TOKEN_CONFIG` to reflect your token of choice
@@ -41,10 +36,16 @@ If deploying your own site, make sure to update `HomeView` component with your m
 Run the development server:
 
 ```bash
+npm install
+#or
+yarn
+```
+
+```sh
 npm run dev
 # or
 yarn dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
